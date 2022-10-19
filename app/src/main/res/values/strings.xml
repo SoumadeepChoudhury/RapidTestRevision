@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RapidTestRevision</string>
+    <string name="title">RapidTestRevision</string>
+    <string name="date"><u>Date</u></string>
+    <string name="physics"><u>Physics</u></string>
+    <string name="chemistry"><u>Chemistry</u></string>
+    <string name="botany"><u>Botany</u></string>
+    <string name="zoology"><u>Zoology</u></string>
+    <string name="total"><u>Total</u></string>
+    <string name="input">Input the Marks</string>
+    <string name="mistake"><u>Mistakes</u></string>
+</resources>
