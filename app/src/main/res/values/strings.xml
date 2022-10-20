@@ -9,4 +9,10 @@
     <string name="total"><u>Total</u></string>
     <string name="input">Input the Marks</string>
     <string name="mistake"><u>Mistakes</u></string>
+
+    <string name="phy"><u>Phy..</u></string>
+    <string name="chem"><u>Chem..</u></string>
+    <string name="bot"><u>Bot..</u></string>
+    <string name="zoo"><u>Zoo..</u></string>
+
 </resources>

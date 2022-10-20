@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         Cursor res=DB.getData();
         if (res.getCount()!=0) {
             while (res.moveToNext()) {
-                String value = res.getString(1).substring(0, 5) + "    " + res.getString(2) + "        " + res.getString(3) + "        " + res.getString(4) + "      " + res.getString(5) + "    " + (Integer.parseInt(res.getString(2)) + Integer.parseInt(res.getString(3)) + Integer.parseInt(res.getString(4)) + Integer.parseInt(res.getString(5)));
+                String value = res.getString(1).substring(0, 5) + "    " + res.getString(2) + "      " + res.getString(3) + "      " + res.getString(4) + "      " + res.getString(5) + "    " + (Integer.parseInt(res.getString(2)) + Integer.parseInt(res.getString(3)) + Integer.parseInt(res.getString(4)) + Integer.parseInt(res.getString(5)));
                 try{
                 mistakeReasonShow.setText(res.getString(6));}
                 catch (Exception e){

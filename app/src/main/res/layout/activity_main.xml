@@ -55,7 +55,7 @@
 
                 <ListView
                     android:id="@+id/list"
-                    android:layout_width="400dp"
+                    android:layout_width="match_parent"
                     android:layout_height="323dp"
                     android:background="@color/darkblue"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -79,7 +79,7 @@
                         android:layout_marginStart="4dp"
                         android:text="@string/date"
                         android:textColor="@color/white"
-                        android:textSize="19sp"
+                        android:textSize="14sp"
                         android:textStyle="italic|bold" />
 
                     <TextView
@@ -89,7 +89,7 @@
                         android:layout_marginStart="15dp"
                         android:text="@string/physics"
                         android:textColor="@color/white"
-                        android:textSize="19sp"
+                        android:textSize="14sp"
                         android:textStyle="italic|bold" />
 
                     <TextView
@@ -99,7 +99,7 @@
                         android:layout_marginStart="4dp"
                         android:text="@string/chemistry"
                         android:textColor="@color/white"
-                        android:textSize="19sp"
+                        android:textSize="14sp"
                         android:textStyle="italic|bold" />
 
                     <TextView
@@ -109,7 +109,7 @@
                         android:layout_marginStart="4dp"
                         android:text="@string/botany"
                         android:textColor="@color/white"
-                        android:textSize="19sp"
+                        android:textSize="14sp"
                         android:textStyle="italic|bold" />
 
                     <TextView
@@ -119,7 +119,7 @@
                         android:layout_marginStart="4dp"
                         android:text="@string/zoology"
                         android:textColor="@color/white"
-                        android:textSize="19sp"
+                        android:textSize="14sp"
                         android:textStyle="italic|bold" />
 
 
@@ -130,7 +130,7 @@
                         android:layout_marginStart="4dp"
                         android:text="@string/total"
                         android:textColor="@color/white"
-                        android:textSize="19sp"
+                        android:textSize="14sp"
                         android:textStyle="italic|bold" />
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
